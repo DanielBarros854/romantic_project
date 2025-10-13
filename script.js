@@ -48,51 +48,15 @@ function showRomanticPage() {
             romanticPage.style.opacity = '1';
             romanticPage.style.transform = 'scale(1)';
             
-            // Inicializar Spotify após a transição
-            initializeSpotifyAfterTransition();
         }, 100);
     }, 500);
 }
 
-// Inicializar Spotify após transição da página
-function initializeSpotifyAfterTransition() {
-    // Aguardar um pouco para garantir que a página está carregada
-    setTimeout(() => {
-        if (typeof initializeSpotify === 'function') {
-            initializeSpotify();
-        }
-    }, 1000);
-}
 
 // Inicializar player de música
 function initializeMusicPlayer() {
-    // Configurar botão de toggle para modo avançado
-    const toggleBtn = document.getElementById('toggle-player');
-    if (toggleBtn) {
-        toggleBtn.addEventListener('click', toggleAdvancedPlayer);
-    }
-    
     // Configurar autoplay da música quando entrar na página romântica
     setupMusicAutoplay();
-}
-
-// Alternar entre player simples e avançado
-function toggleAdvancedPlayer() {
-    const embedPlayer = document.getElementById('spotify-embed');
-    const advancedPlayer = document.getElementById('spotify-advanced');
-    const toggleBtn = document.getElementById('toggle-player');
-    
-    if (embedPlayer.style.display === 'none') {
-        // Mostrar player embed
-        embedPlayer.style.display = 'block';
-        advancedPlayer.style.display = 'none';
-        toggleBtn.innerHTML = '<i class="fas fa-cog"></i> Modo Avançado';
-    } else {
-        // Mostrar player avançado
-        embedPlayer.style.display = 'none';
-        advancedPlayer.style.display = 'block';
-        toggleBtn.innerHTML = '<i class="fas fa-music"></i> Player Simples';
-    }
 }
 
 // Configurar autoplay da música
@@ -321,7 +285,6 @@ function setStartDate(dateString) {
 }
 
 // Exemplo de uso das funções (você pode chamar essas funções do console do navegador):
-// playTrack('ID_DA_MUSICA'); // Tocar música específica do Spotify
 // setStartDate('2024-01-01'); // Substitua pela data desejada
 
 // Exportar funções de controle do carrossel para uso global

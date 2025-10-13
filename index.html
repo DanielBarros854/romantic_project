@@ -10,7 +10,6 @@
     href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <script src="https://sdk.scdn.co/spotify-player.js"></script>
 </head>
 
 <body>
@@ -51,54 +50,6 @@
             </div>
           </div>
 
-          <!-- Player com login (avançado) -->
-          <div id="spotify-advanced" class="spotify-advanced-player" style="display: none;">
-            <div class="player-toggle">
-              <button id="toggle-player" class="toggle-btn">
-                <i class="fas fa-cog"></i>
-                Modo Avançado
-              </button>
-            </div>
-            <div id="spotify-login" class="spotify-login">
-              <p>Conecte-se ao Spotify para controle total da música</p>
-              <button id="login-btn" class="spotify-btn">
-                <i class="fab fa-spotify"></i>
-                Conectar ao Spotify
-              </button>
-            </div>
-            <div id="spotify-player" class="spotify-player-container" style="display: none;">
-              <div class="track-info">
-                <img id="track-image" src="" alt="Capa do álbum" class="track-image">
-                <div class="track-details">
-                  <h3 id="track-name">Música não selecionada</h3>
-                  <p id="track-artist">Artista</p>
-                </div>
-              </div>
-              <div class="player-controls">
-                <button id="prev-btn" class="control-btn">
-                  <i class="fas fa-step-backward"></i>
-                </button>
-                <button id="play-pause-btn" class="control-btn play-pause">
-                  <i class="fas fa-play"></i>
-                </button>
-                <button id="next-btn" class="control-btn">
-                  <i class="fas fa-step-forward"></i>
-                </button>
-              </div>
-              <div class="progress-container">
-                <span id="current-time">0:00</span>
-                <div class="progress-bar">
-                  <div id="progress" class="progress"></div>
-                </div>
-                <span id="total-time">0:00</span>
-              </div>
-              <div class="volume-container">
-                <i class="fas fa-volume-down"></i>
-                <input type="range" id="volume-slider" min="0" max="100" value="50">
-                <i class="fas fa-volume-up"></i>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -190,8 +141,6 @@
 
     <script src="music-config.js"></script>
     <script src="photos-config.js"></script>
-    <script src="spotify-config.js"></script>
-    <script src="spotify.js"></script>
     <script src="script.js"></script>
 </body>
 

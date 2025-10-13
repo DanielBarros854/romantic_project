@@ -65,29 +65,6 @@ playRandomTrack()
 listAvailableTracks()
 ```
 
-### 🔧 **Player Avançado (Opcional)**
-
-Para controle total da música, você pode ativar o modo avançado:
-
-1. **Criar conta de desenvolvedor no Spotify:**
-   - Acesse: https://developer.spotify.com/dashboard
-   - Faça login com sua conta Spotify
-
-2. **Criar uma aplicação:**
-   - Clique em "Create App"
-   - Preencha os dados da aplicação
-   - Anote o **Client ID**
-
-3. **Configurar URLs de redirecionamento:**
-   - Adicione: `http://localhost:3000/callback` (desenvolvimento)
-   - Adicione: `https://seudominio.com/callback` (produção)
-
-4. **Configurar o Client ID:**
-   - Abra o arquivo `spotify-config.js`
-   - Substitua `YOUR_SPOTIFY_CLIENT_ID` pelo seu Client ID
-
-5. **Ativar modo avançado:**
-   - Clique no botão "Modo Avançado" no player de música
 
 ### 🎵 **Músicas Românticas Incluídas:**
 
@@ -193,15 +170,12 @@ O site é totalmente responsivo e funciona em:
    vercel
    ```
 
-4. **Configure as variáveis de ambiente:**
-   - Acesse o dashboard da Vercel
-   - Vá em Settings > Environment Variables
-   - Adicione: `SPOTIFY_CLIENT_ID=seu_client_id`
+4. **Deploy concluído!**
+   - Seu site estará disponível na URL fornecida pela Vercel
 
 ### Deploy via GitHub:
 1. Conecte seu repositório GitHub à Vercel
-2. Configure as variáveis de ambiente
-3. Deploy automático a cada push!
+2. Deploy automático a cada push!
 
 ### 📁 Arquivos de Configuração:
 - `vercel.json` - Configurações do deploy

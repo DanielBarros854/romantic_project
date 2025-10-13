@@ -1,0 +1,28 @@
+{
+  "name": "site-romantico",
+  "version": "1.0.0",
+  "description": "Site romântico com música, fotos e contador de tempo",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "romantic",
+    "love",
+    "spotify",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -6,7 +6,7 @@ Um site romântico e interativo com duas páginas, criado especialmente para dem
 
 - **Página Inicial**: Botão "Clique Aqui" com animações de coração
 - **Página Romântica** com:
-  - 🎵 Player de música integrado (YouTube)
+  - 🎵 Player de música integrado (Spotify)
   - 📸 Carrossel de fotos automático
   - ⏰ Contador de tempo romântico
   - 💌 Mensagem personalizada
@@ -165,7 +165,7 @@ O site é totalmente responsivo e funciona em:
 - JavaScript (ES6+)
 - Font Awesome (ícones)
 - Google Fonts (tipografia)
-- YouTube API (música)
+- Spotify Web Playback SDK (música)
 
 ## 💡 Dicas de Uso
 

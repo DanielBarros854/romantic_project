@@ -314,12 +314,6 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Função para alterar a música do YouTube
-function changeMusic(videoId) {
-    const iframe = document.getElementById('youtube-player');
-    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=0&controls=1&showinfo=0&rel=0`;
-}
-
 // Função para alterar a data de início do contador
 function setStartDate(dateString) {
     startDate = new Date(dateString);
@@ -327,7 +321,7 @@ function setStartDate(dateString) {
 }
 
 // Exemplo de uso das funções (você pode chamar essas funções do console do navegador):
-// changeMusic('dQw4w9WgXcQ'); // Substitua pelo ID do vídeo desejado
+// playTrack('ID_DA_MUSICA'); // Tocar música específica do Spotify
 // setStartDate('2024-01-01'); // Substitua pela data desejada
 
 // Exportar funções de controle do carrossel para uso global

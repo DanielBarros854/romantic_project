@@ -151,40 +151,12 @@ O site é totalmente responsivo e funciona em:
 - Teste em diferentes dispositivos para garantir compatibilidade
 - Personalize as mensagens para torná-las mais especiais
 
-## 🚀 Deploy na Vercel
-
-### Configuração Rápida:
-
-1. **Instale a Vercel CLI:**
-   ```bash
-   npm i -g vercel
-   ```
-
-2. **Faça login na Vercel:**
-   ```bash
-   vercel login
-   ```
-
-3. **Deploy do projeto:**
-   ```bash
-   vercel
-   ```
-
-4. **Deploy concluído!**
-   - Seu site estará disponível na URL fornecida pela Vercel
-
-### Deploy via GitHub:
-1. Conecte seu repositório GitHub à Vercel
-2. Deploy automático a cada push!
-
 ### 📁 Arquivos de Configuração:
-- `vercel.json` - Configurações do deploy
 - `package.json` - Dependências do projeto
-- `.vercelignore` - Arquivos ignorados no deploy
 
 ## 🎉 Pronto para Usar!
 
-Seu site romântico está pronto! Basta abrir o `index.html` no navegador ou fazer deploy na Vercel.
+Seu site romântico está pronto! Basta abrir o `index.html` no navegador.
 
 ---
 

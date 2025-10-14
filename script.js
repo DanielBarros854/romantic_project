@@ -2,7 +2,7 @@
 let currentSlide = 0;
 let timerInterval;
 let carouselTimer; // Timer específico para o carrossel
-let startDate = new Date('2025-01-01');
+let startDate = new Date('2025-01-01T00:00:00-03:00');
 
 // Inicialização quando a página carrega
 document.addEventListener('DOMContentLoaded', function() {

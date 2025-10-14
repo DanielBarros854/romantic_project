@@ -343,19 +343,20 @@ body {
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     border: 1px solid rgba(100, 100, 100, 0.4);
+    display: flex;
 }
 
-.timer-box span {
+.timer-box div span {
     display: block;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.timer-box label {
+.timer-box div label {
     display: block;
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 5px;
     text-transform: uppercase;
@@ -486,7 +487,7 @@ body {
     
     .timer-box {
         min-width: 80px;
-        padding: 15px;
+        padding: 20px;
     }
     
     .timer-box span {

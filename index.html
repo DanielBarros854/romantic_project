@@ -23,123 +23,20 @@
       </div>
       <h1 class="main-title">Para minha Princesa</h1>
       <p class="subtitle">Algo especial para minha pessoa especial...</p>
-      <button id="enter-btn" class="romantic-btn">
-        <span>Aperte Aqui</span>
-        <i class="fas fa-heart"></i>
-      </button>
+      <div class="buttons-container">
+        <button id="romantic-btn" class="romantic-btn">
+          <span>Romântico</span>
+          <i class="fas fa-heart"></i>
+        </button>
+        <button id="first-year-btn" class="romantic-btn">
+          <span>Primeiro Ano</span>
+          <i class="fas fa-heart"></i>
+        </button>
+      </div>
     </div>
   </div>
 
-  <!-- Página Romântica -->
-  <div id="romantic-page" class="page">
-    <div class="container">
-      <!-- Música -->
-      <div class="music-section">
-        <h2><i class="fab fa-spotify"></i> Nossa Música</h2>
-        <div class="music-player-container">
-          <!-- Player sem login (embed) -->
-          <div id="spotify-embed" class="spotify-embed-player">
-            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/13Ptw7q3USfpeNHriXmxzQ?utm_source=generator&theme=0" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <div class="music-info">
-              <p class="music-title">Se Eu Pedir, Cê Volta - Jorge e Mateus</p>
-              <p class="music-description">Música do nosso pedido de namoro</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Carrossel de Fotos -->
-      <div class="photos-section">
-        <h2><i class="fas fa-camera"></i> Nosso Mural</h2>
-        <div class="carousel-container">
-          <div class="carousel">
-            <div class="carousel-track">
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.34 (1).jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Nossa primeira viagem</div>
-              </div>
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.32 (1).jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Sorrisos compartilhados</div>
-              </div>
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.32 (2).jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Aventuras juntos</div>
-              </div>
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.33.jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Meu chamenguinho</div>
-              </div>
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.33 (1).jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Momentos únicos</div>
-              </div>
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.34.jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Memórias especiais</div>
-              </div>
-              <div class="carousel-slide">
-                <img src="public/WhatsApp Image 2025-10-13 at 19.51.32.jpeg" alt="Momentos especiais">
-                <div class="slide-caption">Nossa história</div>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-btn prev" onclick="changeSlide(-1)">
-            <i class="fas fa-chevron-left"></i>
-          </button>
-          <button class="carousel-btn next" onclick="changeSlide(1)">
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- Contador de Tempo -->
-      <div class="timer-section">
-        <h2><i class="fas fa-clock"></i> Nosso Tempo Juntos</h2>
-        <div class="timer-container">
-          <div class="timer-box">
-            <div style='padding-right: 15px;'>
-              <span id="days">0</span>
-              <label>Dias</label>
-            </div>
-            <div style='padding-right: 15px;'>
-              <span id="hours">0</span>
-              <label>Horas</label>
-            </div>
-            <div style='padding-right: 15px;'>
-              <span id="minutes">0</span>
-              <label>Minutos</label>
-            </div>
-            <div>
-              <span id="seconds">0</span>
-              <label>Segundos</label>
-            </div>
-          </div>
-        </div>
-        <p class="timer-message">Desde que você entrou na minha vida...</p>
-      </div>
-
-      <!-- Mensagem Romântica -->
-      <div class="message-section">
-        <h2><i class="fas fa-heart"></i> Para Você</h2>
-        <div class="footer-content">
-          <div class="love-message">
-            <p class="love-text">
-              A cada dia que passa, meu coração se enche mais de carinho e admiração por você.<br>
-              Cada sorriso seu ilumina o meu mundo, e cada abraço me faz sentir que estou exatamente onde deveria
-              estar.<br>
-              Você é a razão dos meus melhores pensamentos, e tudo ao seu lado se torna mais bonito e significativo
-            </p>
-            <p class="love-signature">Eu te amo para sempre ❤️</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="music-config.js"></script>
-    <script src="photos-config.js"></script>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
